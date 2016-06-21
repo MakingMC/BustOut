@@ -1,4 +1,4 @@
-name: BustOut
+name: Tournaments
 main: Main
 version: 0.0.2
 commands:
@@ -6,8 +6,14 @@ commands:
       description: Shows current game state.
       usage: /<command>
    getplayercount:
-      description: Shows current game state.
+      description: Shows current player count.
       usage: /<command>
    start:
-      description: Shows current game state.
+      description: Starts the game.
+      usage: /<command>
+   currentqueue:
+      description: Shows current waiting players.
+      usage: /<command>
+   end:
+      description: End a running game.
       usage: /<command>
